@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  * {
+      box-sizing: border-box;
+   }
+  
+  /* Three image containers ( use 25% for four, and 50% for two,etc)  */
+   .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+
+  }
+   
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ /* Clear folats after image containers */
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table; 
+   }
+    .p1 {
+      color: powderblue;
+      text-align:justify;
+      padding: 20px;
+
+   }
+    .p2 {
+      color:white;
+      text-align: justify;
+  }
+    .p3 {
+       color:yellow;
+    }
+ 
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+.jumbotron {
+   background-color: powderblue;
+   height: 120px;
+   padding-bottom:0px;
+   padding-top: 5px;
+ }
+
+/* Responsive layout - makes the three columns stack on top of each other  */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+   <h1>Sushil Kumar : Indian Wrestler</h1>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Sushil Kumar </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="SKindex.html">Home</a></li>
+        <li><a href="Profle.html">Profile</a></li>
+        <li><a href="SKGallary.html">Gallary</a></li>
+      </ul>
+    </div>
+  </div>
+
+<!--  places 4 cards 
+  C:\BOOTPROJ\SUSHILKUMAR\sushil-2.jpg
+  C:\BOOTPROJ\SUSHILKUMAR\sushil-1.jpeg
+  C:\BOOTPROJ\SUSHILKUMAR\sushil-3.jpg
+  C:\BOOTPROJ\SUSHILKUMAR\sushil-4.jpg
+ 
+-->
+
+<div class="continer">
+ <div class="row">
+   <div class="column">
+      
+      <img src="D:\SUSHILKUMAR\sushil-2.jpg" alt="Snow" style="width:100%;height:250px;">
+   </div>
+
+   <div class="column">
+     
+    <img src="D:\SUSHILKUMAR\sushil-1.jpeg" alt="Forest" style="width:100%;height:250px;">
+   </div>
+
+   <div class="column">
+     
+    <img src="D:\SUSHILKUMAR\sushil-3.jpg" alt="Forest" style="width:100%;height:250px;">
+  </div>
+
+ </div>
+
+</div>
+
+<!-- 2 nd row--> 
+<div class="continer">
+ <div class="row">
+   <div class="column">
+      
+      <img src="D:\SUSHILKUMAR\sushil-4.jpg" alt="Snow" style="width:100%;height:250px;">
+   </div>
+
+   <div class="column">
+     
+    <img src="D:\SUSHILKUMAR\SKGallay7.jpg" alt="Forest" style="width:100%;height:250px;">
+   </div>
+
+   <div class="column">
+     
+    <img src="D:\SUSHILKUMAR\SKGallary9.jpg" alt="Forest" style="width:100%;height:250px;">
+  </div>
+
+ </div>
+
+</div>
+
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p> Footer</p>
+</div>
+
+
+ </body>
+ </html> 
+
+
+</nav>
